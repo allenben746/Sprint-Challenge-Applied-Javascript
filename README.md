@@ -32,13 +32,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+Short for Document Object Model - which is an interface. Converts the HTML into an object-based representation.
+
 2. What is an event?
+
+An event is a click, mouseover, scroll , or anything that the user does on the webpage - we can use
+these events to make the webpage more responsive to the user.
 
 3. What is an event listener?
 
+An event listener looks for event's to happen - once it hears an event it "fires" a function
+
 4. Why would we convert a NodeList into an Array?
 
+A NodeList cannot preform all the methods that an Array can preform
+
 5. What is a component?
+
+Reusable set of logic in JavaScript that we can use the automatically style, display, or anything else
 
 ### Git Set up
 
@@ -53,9 +64,9 @@ Your finished project must include all of the following requirements:
 
 * [-] Look through the HTML code paying particular attention to the Tabs component and the Cards components. You will notice they share a data attribute. We will be using this data attribute to determine which cards should show when each tab is selected.
 
-* [ ] Following the instructions in the `Tabs.js` file, complete the `TabLink`, and `TabCard` class components. It will look and feel very similar to the last project we worked on, but with a twist. Now, instead of one `Item` to display, we will need to display a collection of `Cards`. Think about ways to iterate over an array and manipulate each item.  **Note: You will need to un-comment the code after the lines of instructions.  The code is commented out so you can work error-free**
+* [-] Following the instructions in the `Tabs.js` file, complete the `TabLink`, and `TabCard` class components. It will look and feel very similar to the last project we worked on, but with a twist. Now, instead of one `Item` to display, we will need to display a collection of `Cards`. Think about ways to iterate over an array and manipulate each item.  **Note: You will need to un-comment the code after the lines of instructions.  The code is commented out so you can work error-free**
 
-* [ ] Once you get your `Tab` component working properly add a couple more articles yourself and check out how it works.
+* [-] Once you get your `Tab` component working properly add a couple more articles yourself and check out how it works.
 
 ## Stretch Problems
 
